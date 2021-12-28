@@ -12,8 +12,6 @@ try:
 except:
     port = 7777
 
-print(addr)
-print(port)
 s = socket(AF_INET, SOCK_STREAM)
 
 s.connect((addr, port))
