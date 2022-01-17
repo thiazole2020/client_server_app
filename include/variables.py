@@ -30,6 +30,9 @@ AUTHENTICATE = 'authenticate'
 JOIN = 'join'
 LEAVE = 'leave'
 
+FROM = 'from'
+MESSAGE = 'message'
+
 RESPONSE = 'response'
 ALERT = 'alert'
 
