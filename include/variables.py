@@ -1,3 +1,4 @@
+""" Переменные константные """
 # Default server port
 DEFAULT_PORT = 7777
 # Default server IP Host
@@ -10,6 +11,9 @@ MAX_PACKAGE_SIZE = 2048
 ENCODING = 'utf-8'
 # Default log level
 LOG_LEVEL = 'DEBUG'
+
+#supporting variables
+EXIT_F = 'q!'
 
 
 # JMI protocol fields
@@ -30,7 +34,10 @@ AUTHENTICATE = 'authenticate'
 JOIN = 'join'
 LEAVE = 'leave'
 
+EXIT = 'exit'
+
 FROM = 'from'
+TO = 'to'
 MESSAGE = 'message'
 
 RESPONSE = 'response'
