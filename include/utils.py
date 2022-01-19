@@ -1,3 +1,4 @@
+""" Хранилище вспомогательных общих функций """
 import json
 
 from include.decorators import log, Log

@@ -1,3 +1,5 @@
+""" Описание форматов сообщения протокола JIM """
+
 from include.variables import *
 
 # Шаблон Presence сообщения протокола JIM
@@ -25,10 +27,28 @@ SERVER_RESPONSE_SERVER_ERROR = {
     RESPONSE: RESPCODE_SERVER_ERROR,
 }
 
-# Шаблон сообщения в чат
+# Шаблон сообщения в общий чат
 CHAT_MSG_CLIENT = {
     ACTION: MSG,
     TIME: None,
     FROM: None,
     MESSAGE: None
+}
+
+# Шаблон сообщения пользователю
+CHAT_USER_MSG_CLIENT = {
+    ACTION: MSG,
+    TIME: None,
+    FROM: None,
+    TO: None,
+    MESSAGE: None
+}
+
+
+
+# Шаблон сообщения выхода из чата
+EXIT_MSG_CLIENT = {
+    ACTION: EXIT,
+    TIME: None,
+    FROM: None
 }
